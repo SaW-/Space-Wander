@@ -1,0 +1,305 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.1",
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "",
+      "projectGuid": "a0338026-1c43-4cca-a897-604a4eae5397",
+      "lastModifiedDate": 1422188950943,
+      "creationDate": 1422186878499
+    },
+    "sourceDirectory": "",
+    "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "startFile": "index.html",
+    "projectTags": [],
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [
+      {
+        "name": "Cordova",
+        "version": "2.9.0",
+        "data": {
+          "default": true
+        }
+      },
+      {
+        "name": "intelXDK",
+        "version": "4.0.0",
+        "data": {
+          "default": true
+        }
+      }
+    ],
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.device",
+        "version": "0.2.9",
+        "selectedState": "Auto",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "0.3.0",
+        "selectedState": "Auto",
+        "data": {},
+        "paramvals": {}
+      }
+    ],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "landscape"
+        },
+        "isActive_": true,
+        "appName_": "Space Wander",
+        "appID_": "com.aliensoft.spacewander",
+        "appAccess_": "*",
+        "icons_": [
+          {
+            "relPath": "res/mipmap-mdpi/ic_launcher.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "res/mipmap-hdpi/ic_launcher.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "res/mipmap-xhdpi/ic_launcher.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          },
+          {
+            "relPath": "res/36.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "res/426.png",
+            "density": "ldpi",
+            "height": 320,
+            "width": 426,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "res/470.png",
+            "density": "mdpi",
+            "height": 320,
+            "width": 470,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "res/640.png",
+            "density": "hdpi",
+            "height": 480,
+            "width": 640,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "res/960.png",
+            "density": "xhdpi",
+            "height": 720,
+            "width": 960,
+            "orientation": "landscape"
+          }
+        ],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.5",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "stable",
+        "appDescription_": "Getting lost in space, where black holes, supernovas and solor storm exist ........ seems terrify , right ? But not in our case , help two lost astronauts find their way back to earth, by gathering the resources they need to save their mission.",
+        "appAuthor_": "Shady Amir"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto",
+          "Fullscreen": true,
+          "Orientation": "landscape"
+        },
+        "isActive_": true,
+        "appName_": "Space Wander",
+        "appID_": "com.aliensoft.spacewander",
+        "appAccess_": "*",
+        "icons_": [
+          {
+            "relPath": "res/mipmap-mdpi/ic_launcher.png",
+            "density": "mdpi",
+            "height": 48,
+            "width": 48
+          },
+          {
+            "relPath": "res/mipmap-hdpi/ic_launcher.png",
+            "density": "hdpi",
+            "height": 72,
+            "width": 72
+          },
+          {
+            "relPath": "res/mipmap-xhdpi/ic_launcher.png",
+            "density": "xhdpi",
+            "height": 96,
+            "width": 96
+          },
+          {
+            "relPath": "res/36.png",
+            "density": "ldpi",
+            "height": 36,
+            "width": 36
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "res/426.png",
+            "density": "ldpi",
+            "height": 320,
+            "width": 426,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "res/470.png",
+            "density": "mdpi",
+            "height": 320,
+            "width": 470,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "res/640.png",
+            "density": "hdpi",
+            "height": 480,
+            "width": 640,
+            "orientation": "landscape"
+          },
+          {
+            "relPath": "res/960.png",
+            "density": "xhdpi",
+            "height": 720,
+            "width": 960,
+            "orientation": "landscape"
+          }
+        ],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.5",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "stable",
+        "appAuthor_": "Shady Amir",
+        "appDescription_": "Getting lost in space, where black holes, supernovas and solor storm exist ........ seems terrify , right ? But not in our case , help two lost astronauts find their way back to earth, by gathering the resources they need to save their mission."
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "5",
+          "ios-configuration": "adhoc",
+          "Fullscreen": true,
+          "Orientation": "landscape"
+        },
+        "isActive_": true,
+        "appName_": "Space Wander",
+        "appID_": "com.aliensoft.spacewander",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.5",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Shady Amir",
+        "appDescription_": "Getting lost in space, where black holes, supernovas and solor storm exist ........ seems terrify , right ? But not in our case , help two lost astronauts find their way back to earth, by gathering the resources they need to save their mission."
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "Orientation": "landscape",
+          "windows-publisher-id": "",
+          "Fullscreen": true
+        },
+        "isActive_": true,
+        "appName_": "Space Wander",
+        "appID_": "com.aliensoft.spacewander",
+        "appAccess_": "*",
+        "icons_": [
+          {
+            "relPath": "res/30.png",
+            "height": 30,
+            "width": 30
+          },
+          {
+            "relPath": "res/50.png",
+            "height": 50,
+            "width": 50
+          },
+          {
+            "relPath": "res/150.png",
+            "height": 150,
+            "width": 150
+          }
+        ],
+        "splashes_": [
+          {
+            "relPath": "res/630.png",
+            "height": 300,
+            "width": 620,
+            "orientation": "landscape"
+          }
+        ],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.5",
+        "appVersion_": "0.0.0.1",
+        "appAuthor_": "Shady Amir",
+        "appDescription_": "Getting lost in space, where black holes, supernovas and solor storm exist ........ seems terrify , right ? But not in our case , help two lost astronauts find their way back to earth, by gathering the resources they need to save their mission."
+      },
+      "WindowsPhone8": {
+        "platform_": "wp8",
+        "runtime_": "Cordova 3.x",
+        "name_": "WindowsPhone8",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "SpaceWander",
+        "appID_": "not.yet.specified",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.5",
+        "appVersion_": "0.0.0.1"
+      }
+    }
+  }
+}
